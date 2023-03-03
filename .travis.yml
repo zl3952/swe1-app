@@ -23,8 +23,8 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key: $SECRETACCESSKEY
   region: "us-east-1"  
-  app: "PollsApp-CI"
-  env: "PollsApp-CI-dev"
+  app: "PollsApp3.7"
+  env: "PollsApp37-dev"
   bucket_name: "elasticbeanstalk-us-east-1-420156536504"
   on:
     branch: master
